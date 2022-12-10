@@ -25,7 +25,7 @@ if(!docSnap.exists()){
     email: user.email, 
     timestamp: serverTimestamp(),
   })
-}
+} 
 navigate("/")
 }catch{
   toast.error("Could not authorize Google account")
