@@ -41,7 +41,7 @@ export default function ListingItem({listing, id, onEdit, onDelete}) {
       </div>
     </Link>
     {onDelete && (<FaTrash className="absolute bottom-2 right-2 h-[14px] cursor-pointer text-red-500 " onClick={()=>onDelete(listing.id)} />)}
-    {onEdit && (<MdEdit className="absolute bottom-2 right-7 h-[4px] cursor-pointer" onClick={()=>onEdit(listing.id)} />)}
+    {onEdit && (<MdEdit className="absolute bottom-2 right-7 h-[4] cursor-pointer" onClick={()=>onEdit(listing.id)} />)}
     </li>
   )
 }
