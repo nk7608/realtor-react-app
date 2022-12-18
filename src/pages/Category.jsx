@@ -81,7 +81,7 @@ try {
   </div>
 )}
       </>) : (
-        <p>There are no current offers</p>
+        <p>There are no current offers {params.categoryName === "rent" ? "Places for rent":"Places for sale"}</p>
       )}
     </div>
   )
