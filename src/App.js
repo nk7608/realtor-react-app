@@ -21,6 +21,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/profile" element={<PrivateRoute />} >
         <Route path="/profile" element={<Profile />} /></Route>
         <Route path="/sign-in" element={<SignIn />} />
